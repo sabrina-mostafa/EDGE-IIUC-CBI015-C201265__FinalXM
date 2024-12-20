@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabrina</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.22/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+
+<body>
+
+
+    <!-- border-[red] border-[2px] -->
+
+    <nav class="w-[100%] flex justify-center items-center pb-[0.4%]">
+        <div class="navbar bg-base-100 w-[88%]">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        <li><a>Home</a></li>
+                        <li><a>Interviewers</a></li>
+                        <li><a>Blogs</a></li>
+                    </ul>
+                </div>
+                <a class="w-[40%] cursor-pointer">
+                    <img src="images/logo.png" alt="" class=" w-[90%]">
+                </a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1 text-[16px] font-[700] text-[#524d4d]">
+                    <li><a>Home</a></li>
+                    <li><a>Interviewers</a></li>
+                    <li><a>Blogs</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <a class="btn mr-[1%] font-[700] min-h-[2.3rem] h-[2.3rem]">Sign In</a>
+                <button class="btn btn-active btn-primary text-[white] font-[700] min-h-[2.3rem] h-[2.3rem]">Get
+                    started</button>
+            </div>
+        </div>
+    </nav>
+
+
+    <header class="w-[100%] flex flex-col justify-center items-center">
+        <div class="w-[100%] h-[16rem] overflow-hidden">
+            <img src="images/bg.jpeg" alt="" class="object-cover w-full h-full">
+        </div>
+
+        <div class="w-[100%] flex flex-col justify-center items-center">
+            <div class="avatar w-[86%] ">
+                <div class="w-[22%] rounded-full border-[black] border-[8px] ">
+                    <img src="images/pic.jpg" class="w-[100%]" />
+                </div>
+                <div class="flex flex-col w-[60%] h-[6rem] border-[red] border-[2px]">
+                    <h1 class="text-[20px]">Abir Khan</h1>
+                    <img src="images/flag.png" alt="" class="w-[2px] h-[2px]">
+                </div>
+                <div>
+                    <p>Senior Software Engineer at Growth Garage</p>
+                </div>
+            </div>
+
+        </div>
+
+    </header>
+
+
+
+
+
+
+</body>
+
+</html>
